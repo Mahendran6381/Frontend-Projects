@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+}
+main {
+  height: 65vh;
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+}
+.content {
+  padding: 3rem;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.content-1 {
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 40px;
+}
+
+.content-3 {
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.purple {
+  color: hsl(277, 64%, 61%);
+}
+.c2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.c1 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+img {
+  height: 100%;
+   /* width: 100%; */
+ object-fit: contain;
+ filter: grayscale(16%) sepia(100%) brightness(69%) hue-rotate(249deg) saturate(261%) opacity(56%) contrast(144%) invert(21%) drop-shadow(10px 10px 5px #000000);
+-webkit-filter: grayscale(16%) sepia(100%) brightness(69%) hue-rotate(249deg) saturate(261%) opacity(56%) contrast(144%) invert(21%) drop-shadow(10px 10px 5px #000000);
+-moz-filter: grayscale(16%) sepia(100%) brightness(69%) hue-rotate(249deg) saturate(261%) opacity(56%) contrast(144%) invert(21%) drop-shadow(10px 10px 5px #000000);
+}
+
+@media only screen and (max-width: 900px) {
+  * {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: hsl(233, 47%, 7%);
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    height: 75vh;
+    background-color: hsl(244, 38%, 16%);
+  }
+ 
+  
+  .content-1{
+    background-color: hsl(244, 38%, 16%);
+  }
+  .content-3{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(244, 38%, 16%);
+  }
+  .purple{
+    background-color: hsl(244, 38%, 16%);
+  }
+  .content-2{
+    background-color:hsl(244, 38%, 16%);
+  }
+  .c1 ,.c2{
+    background-color: hsl(244, 38%, 16%);
+  }
+  img {
+    /* lheight: 100%; */
+    width: 100%;
+    object-fit: contain;
+   
+  }
+  .image{
+    margin-bottom: 5rem;
+  }
+}
